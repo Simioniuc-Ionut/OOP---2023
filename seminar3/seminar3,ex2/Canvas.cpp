@@ -4,9 +4,9 @@
 #include <iostream>
 
 Canvas::Canvas(int lines, int columns){
-    clear();
     this->inaltime = lines;
     this->latime = columns;
+    clear();
 }
 
 void Canvas::set_pixel(int x, int y, char value){

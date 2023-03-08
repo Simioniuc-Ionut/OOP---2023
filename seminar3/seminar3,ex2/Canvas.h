@@ -2,7 +2,7 @@
 #include <cstdio>
 
 class Canvas {
-    int inaltime=10 , latime=50 ;
+    int inaltime , latime;
     char mat[12][52];
   public:
     // contructor will call the clear method
