@@ -98,4 +98,4 @@ void ObjectValue::print(std::ostream& out) const {
 }
 ObjectValue::operator unsigned() const {
     return this->count;
-}
+}s
